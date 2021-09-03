@@ -81,6 +81,10 @@ PRODUCT_PACKAGES += \
     vendor.nxp.nxpese@1.0:64 \
     vendor.nxp.nxpnfc@1.0:64
 
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
