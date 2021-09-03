@@ -30,6 +30,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AntHalService-Soong
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    libaacwrapper
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
