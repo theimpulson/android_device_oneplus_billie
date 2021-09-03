@@ -1,0 +1,5 @@
+# All unpinned blobs below are extracted from OnePlus/OnePlusN10/OnePlusN10:11/RKQ1.201217.002/2108030010:user/release-keys
+
+# ANT+
+system_ext/lib/com.qualcomm.qti.ant@1.0.so
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so
