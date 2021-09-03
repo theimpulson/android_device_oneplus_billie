@@ -63,3 +63,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/oneplus/billie/billie-vendor.mk)
