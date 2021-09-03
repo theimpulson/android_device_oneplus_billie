@@ -47,6 +47,15 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Display
+PRODUCT_PACKAGES += \
+    libdisplayconfig.qti \
+    libqdMetaData \
+    libqdMetaData.system \
+    libvulkan \
+    vendor.display.config@1.0 \
+    vendor.display.config@2.0
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -55,6 +64,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhidltransport \
     libhwbinder
+
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -97,6 +110,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/billie/billie-vendor.mk)
