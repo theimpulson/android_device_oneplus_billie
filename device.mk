@@ -395,7 +395,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
 
 # Partitions - Dynamic
-PRODUCT_BUILD_SUPER_PARTITION := false
+BOARD_BUILD_SUPER_IMAGE_BY_DEFAULT  := true
+BUILDING_SUPER_EMPTY_IMAGE := true
+PRODUCT_BUILD_SUPER_PARTITION := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
